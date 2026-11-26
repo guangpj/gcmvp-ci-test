@@ -1,0 +1,4 @@
+name: test
+on:/n  push:/n    branches: [main]
+jobs:/n  echo:/n    runs-on: ubuntu-latest
+    steps:/n      - run: echo hello
